@@ -11,14 +11,8 @@ cd ..
 cd system/sepolicy
 git apply -v ../../device/lenovo/P1m/patches/0003-Revert-back-to-policy-version-29.patch
 cd ../..
-cd frameworks/av
-git apply -v ../../device/lenovo/P1m/patches/frameworks_av.patch
-cd ../..
 cd frameworks/native
 git apply -v ../../device/lenovo/P1m/patches/frameworks_native.patch
-cd ../..
-cd frameworks/base
-git apply -v ../../device/lenovo/P1m/patches/frameworks_base.patch
 cd ../..
 cd system/netd
 git apply -v ../../device/lenovo/P1m/patches/0010-wifi-tethering-fix.patch
